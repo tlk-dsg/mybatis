@@ -12,6 +12,10 @@
         select * from mybatis.user where id = #{id}
     </select>
 
+    <select id="getUserByLike" resultType="com.tlk.pojo.User">
+        select * from mybatis.user where name like #{value}
+    </select>
+
     <insert id="addUser" parameterType="com.tlk.pojo.User">
         insert into mybatis.user value(#{id},#{name},#{pwd})
     </insert>

@@ -24,6 +24,20 @@ public class UserDaoTest {
     }
 
     @Test
+    public void testgetuserbylike(){
+        //获取SqlSession
+        SqlSession sqlSession = MybatisUtils.getSqlSession();
+        //执行SQL
+        UserMapper mapper = sqlSession.getMapper(UserMapper.class);
+        List<User> list = mapper.getUserByLike("t%");
+
+        for (User user : list){
+            System.out.println(user);
+        }
+
+        sqlSession.close();
+    }
+    @Test
     public void testgetuserbyid(){
         SqlSession sqlSession = MybatisUtils.getSqlSession();
         //执行SQL
@@ -34,6 +48,8 @@ public class UserDaoTest {
 
         sqlSession.close();
     }
+
+
 
     @Test
     public void testadduser(){
