@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mybatis5" />
         <module name="mybatis3" />
         <module name="mybatis4" />
         <module name="mybatis1" />
@@ -18,6 +19,8 @@
       <module name="mybatis2" target="8" />
       <module name="mybatis3" target="8" />
       <module name="mybatis4" target="8" />
+      <module name="mybatis5" target="8" />
+      <module name="mybatis6" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

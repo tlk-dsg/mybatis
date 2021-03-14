@@ -1082,3 +1082,95 @@
 2021-03-13 16:04:17  Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@a530d0a]
 2021-03-13 16:04:17  Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@a530d0a]
 2021-03-13 16:04:17  Returned connection 173214986 to pool.
+2021-03-14 14:38:59  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-03-14 14:38:59  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-03-14 14:38:59  Class not found: org.jboss.vfs.VFS
+2021-03-14 14:38:59  JBoss 6 VFS API is not available in this environment.
+2021-03-14 14:38:59  Class not found: org.jboss.vfs.VirtualFile
+2021-03-14 14:38:59  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2021-03-14 14:38:59  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2021-03-14 14:38:59  Find JAR URL: file:/Users/taoliankuan/Desktop/mybatis/mybatis4/target/classes/com/tlk/pojo
+2021-03-14 14:38:59  Not a JAR: file:/Users/taoliankuan/Desktop/mybatis/mybatis4/target/classes/com/tlk/pojo
+2021-03-14 14:38:59  Reader entry: Student.class
+2021-03-14 14:38:59  Reader entry: Student2.class
+2021-03-14 14:38:59  Reader entry: Teacher.class
+2021-03-14 14:38:59  Reader entry: Teacher2.class
+2021-03-14 14:38:59  Listing file:/Users/taoliankuan/Desktop/mybatis/mybatis4/target/classes/com/tlk/pojo
+2021-03-14 14:38:59  Find JAR URL: file:/Users/taoliankuan/Desktop/mybatis/mybatis4/target/classes/com/tlk/pojo/Student.class
+2021-03-14 14:38:59  Not a JAR: file:/Users/taoliankuan/Desktop/mybatis/mybatis4/target/classes/com/tlk/pojo/Student.class
+2021-03-14 14:38:59  Reader entry: ����   4 <
+2021-03-14 14:38:59  Find JAR URL: file:/Users/taoliankuan/Desktop/mybatis/mybatis4/target/classes/com/tlk/pojo/Student2.class
+2021-03-14 14:38:59  Not a JAR: file:/Users/taoliankuan/Desktop/mybatis/mybatis4/target/classes/com/tlk/pojo/Student2.class
+2021-03-14 14:38:59  Reader entry: ����   4 B
+2021-03-14 14:38:59  Find JAR URL: file:/Users/taoliankuan/Desktop/mybatis/mybatis4/target/classes/com/tlk/pojo/Teacher.class
+2021-03-14 14:38:59  Not a JAR: file:/Users/taoliankuan/Desktop/mybatis/mybatis4/target/classes/com/tlk/pojo/Teacher.class
+2021-03-14 14:38:59  Reader entry: ����   4 H
+2021-03-14 14:38:59  Find JAR URL: file:/Users/taoliankuan/Desktop/mybatis/mybatis4/target/classes/com/tlk/pojo/Teacher2.class
+2021-03-14 14:38:59  Not a JAR: file:/Users/taoliankuan/Desktop/mybatis/mybatis4/target/classes/com/tlk/pojo/Teacher2.class
+2021-03-14 14:38:59  Reader entry: ����   4 5
+2021-03-14 14:38:59  Checking to see if class com.tlk.pojo.Student matches criteria [is assignable to Object]
+2021-03-14 14:38:59  Checking to see if class com.tlk.pojo.Student2 matches criteria [is assignable to Object]
+2021-03-14 14:38:59  Checking to see if class com.tlk.pojo.Teacher matches criteria [is assignable to Object]
+2021-03-14 14:38:59  Checking to see if class com.tlk.pojo.Teacher2 matches criteria [is assignable to Object]
+2021-03-14 14:38:59  PooledDataSource forcefully closed/removed all connections.
+2021-03-14 14:38:59  PooledDataSource forcefully closed/removed all connections.
+2021-03-14 14:38:59  PooledDataSource forcefully closed/removed all connections.
+2021-03-14 14:38:59  PooledDataSource forcefully closed/removed all connections.
+2021-03-14 14:38:59  Opening JDBC Connection
+2021-03-14 14:39:01  Created connection 173214986.
+2021-03-14 14:39:01  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@a530d0a]
+2021-03-14 14:39:01  ==>  Preparing: select * from mybatis.teacher where id = ?
+2021-03-14 14:39:01  ==> Parameters: 1(Integer)
+2021-03-14 14:39:01  ====>  Preparing: select * from mybatis.student where tid = ?
+2021-03-14 14:39:01  ====> Parameters: 1(Integer)
+2021-03-14 14:39:01  <====      Total: 3
+2021-03-14 14:39:01  <==      Total: 1
+2021-03-14 14:39:01  Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@a530d0a]
+2021-03-14 14:39:01  Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@a530d0a]
+2021-03-14 14:39:01  Returned connection 173214986 to pool.
+2021-03-14 14:41:18  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-03-14 14:41:18  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-03-14 14:41:18  Class not found: org.jboss.vfs.VFS
+2021-03-14 14:41:18  JBoss 6 VFS API is not available in this environment.
+2021-03-14 14:41:18  Class not found: org.jboss.vfs.VirtualFile
+2021-03-14 14:41:18  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2021-03-14 14:41:18  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2021-03-14 14:41:18  Find JAR URL: file:/Users/taoliankuan/Desktop/mybatis/mybatis4/target/classes/com/tlk/pojo
+2021-03-14 14:41:18  Not a JAR: file:/Users/taoliankuan/Desktop/mybatis/mybatis4/target/classes/com/tlk/pojo
+2021-03-14 14:41:18  Reader entry: Student.class
+2021-03-14 14:41:18  Reader entry: Student2.class
+2021-03-14 14:41:18  Reader entry: Teacher.class
+2021-03-14 14:41:18  Reader entry: Teacher2.class
+2021-03-14 14:41:18  Listing file:/Users/taoliankuan/Desktop/mybatis/mybatis4/target/classes/com/tlk/pojo
+2021-03-14 14:41:18  Find JAR URL: file:/Users/taoliankuan/Desktop/mybatis/mybatis4/target/classes/com/tlk/pojo/Student.class
+2021-03-14 14:41:18  Not a JAR: file:/Users/taoliankuan/Desktop/mybatis/mybatis4/target/classes/com/tlk/pojo/Student.class
+2021-03-14 14:41:18  Reader entry: ����   4 <
+2021-03-14 14:41:18  Find JAR URL: file:/Users/taoliankuan/Desktop/mybatis/mybatis4/target/classes/com/tlk/pojo/Student2.class
+2021-03-14 14:41:18  Not a JAR: file:/Users/taoliankuan/Desktop/mybatis/mybatis4/target/classes/com/tlk/pojo/Student2.class
+2021-03-14 14:41:18  Reader entry: ����   4 B
+2021-03-14 14:41:18  Find JAR URL: file:/Users/taoliankuan/Desktop/mybatis/mybatis4/target/classes/com/tlk/pojo/Teacher.class
+2021-03-14 14:41:18  Not a JAR: file:/Users/taoliankuan/Desktop/mybatis/mybatis4/target/classes/com/tlk/pojo/Teacher.class
+2021-03-14 14:41:18  Reader entry: ����   4 H
+2021-03-14 14:41:18  Find JAR URL: file:/Users/taoliankuan/Desktop/mybatis/mybatis4/target/classes/com/tlk/pojo/Teacher2.class
+2021-03-14 14:41:18  Not a JAR: file:/Users/taoliankuan/Desktop/mybatis/mybatis4/target/classes/com/tlk/pojo/Teacher2.class
+2021-03-14 14:41:18  Reader entry: ����   4 5
+2021-03-14 14:41:18  Checking to see if class com.tlk.pojo.Student matches criteria [is assignable to Object]
+2021-03-14 14:41:18  Checking to see if class com.tlk.pojo.Student2 matches criteria [is assignable to Object]
+2021-03-14 14:41:18  Checking to see if class com.tlk.pojo.Teacher matches criteria [is assignable to Object]
+2021-03-14 14:41:18  Checking to see if class com.tlk.pojo.Teacher2 matches criteria [is assignable to Object]
+2021-03-14 14:41:18  PooledDataSource forcefully closed/removed all connections.
+2021-03-14 14:41:18  PooledDataSource forcefully closed/removed all connections.
+2021-03-14 14:41:18  PooledDataSource forcefully closed/removed all connections.
+2021-03-14 14:41:18  PooledDataSource forcefully closed/removed all connections.
+2021-03-14 14:41:19  Opening JDBC Connection
+2021-03-14 14:41:19  Created connection 173214986.
+2021-03-14 14:41:19  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@a530d0a]
+2021-03-14 14:41:19  ==>  Preparing: select * from mybatis.teacher where id = ?
+2021-03-14 14:41:19  ==> Parameters: 1(Integer)
+2021-03-14 14:41:20  ====>  Preparing: select * from mybatis.student where tid = ?
+2021-03-14 14:41:20  ====> Parameters: 1(Integer)
+2021-03-14 14:41:20  <====      Total: 3
+2021-03-14 14:41:20  <==      Total: 1
+2021-03-14 14:41:20  Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@a530d0a]
+2021-03-14 14:41:20  Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@a530d0a]
+2021-03-14 14:41:20  Returned connection 173214986 to pool.
